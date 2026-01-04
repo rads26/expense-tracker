@@ -77,6 +77,6 @@ The app runs at http://localhost:3000
 
 Radhika Kalanee  
 GitHub: https://github.com/rads26  
-LeetCode: https://leetcode.com/u/CometXx  
 
 ⭐ If you like this project, consider giving it a star!
+
