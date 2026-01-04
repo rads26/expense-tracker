@@ -1,0 +1,180 @@
+.expense-tracker {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #023047;
+  font-family: 'Poppins', sans-serif;
+}
+
+.expense-tracker h1 {
+  font-size: 42px;
+  font-weight: bold;
+  color: #1c1c1c;
+}
+
+.expense-tracker button {
+  margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.profile-photo {
+  width: 180px;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.sign-out-button {
+  border: none;
+  margin-top: 40px;
+  width: 160px;
+  background-image: linear-gradient(to bottom, #d534db, #5b29b9);
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 22px;
+  transition: 0.3s;
+}
+
+.sign-out-button:hover {
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Transaction Box */
+.transactions {
+  margin-left: 430px;
+  margin-top: 20px;
+  padding: 15px;
+  width: 600px;
+  height: 400px;
+  overflow: auto;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border: 2px solid #3498db;
+}
+
+/* Input Fields */
+input, select {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Transaction Alert */
+.alert-dropdown {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #ffca28;
+  color: #000;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Buttons */
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #2980b9;
+  transform: scale(1.05);
+}
+/* Adds space between the horizontal input boxes */
+input, select {
+  margin-right: 10px; /* Adjust as needed */
+}
+
+/* Adds space between "Set Transaction Alert Limit" and "Description" */
+#alert-limit {
+  margin-bottom: 15px; /* Adjust as needed */
+}
+.budget-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Adjust spacing between elements */
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.budget-container input {
+    margin-right: 10px; /* Space between input fields */
+}
+.budget-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adds space between elements */
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.transaction-inputs {
+  margin-top: 10px; /* Adds space between budget section and transaction inputs */
+  display: flex;
+  gap: 10px; /* Adds space between horizontal input boxes */
+  flex-wrap: wrap;
+}
+.budget-alert-container {
+  display: flex;
+  gap: 20px; /* Adds spacing between input groups */
+  align-items: center; /* Aligns inputs properly */
+  justify-content: space-between; /* Adjusts spacing */
+  margin-bottom: 1rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between label and input */
+}
+
+.input-group input {
+  padding: 5px;
+  width: 150px; /* Adjust input width */
+}
+.button-group {
+  display: flex;
+  gap: 10px; /* Adjust spacing as needed */
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.transactions ul li button {
+  margin-right: 10px; /* Adjust the spacing as needed */
+}
+body {
+  background:white;
+
+}
