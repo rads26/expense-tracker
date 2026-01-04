@@ -13,7 +13,8 @@ SpendWise is a full-stack expense management web application that helps users tr
 - User-feedback loop to improve categorization accuracy  
 - Intelligent alerts for expense updates  
 - CSV export for data portability  
-- Responsive UI for multiple screen sizes  
+- Responsive UI for multiple screen sizes
+- Budget limits with proactive alerts   
 
 ## 🧠 AI / NLP Expense Categorization
 
@@ -66,12 +67,6 @@ npm start
 
 The app runs at http://localhost:3000
 
-## 🔮 Future Enhancements
-
-- Budget limits with proactive alerts  
-- Monthly expense forecasting  
-- Advanced search and filters  
-- Offline-first support with sync  
 
 ## 👩‍💻 Author
 
@@ -79,4 +74,5 @@ Radhika Kalanee
 GitHub: https://github.com/rads26  
 
 ⭐ If you like this project, consider giving it a star!
+
 
